@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    style="@style/headerLayoutStyle">
+    <com.kriska.customsearchview.view.CustomTextView
+        android:id="@+id/txtName"
+        style="@style/headerTextStyle"
+        android:text="header"
+        app:typeface="@string/Bold"
+        />
+
+</LinearLayout>

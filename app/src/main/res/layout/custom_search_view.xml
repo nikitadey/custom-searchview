@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/search_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/searchViewSize"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="@android:color/transparent">
+
+            <com.kriska.customsearchview.view.FontIcon
+                android:id="@+id/fiBackIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="5dp"
+                android:text="b"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:padding="4dp"/>
+
+            <EditText
+                android:id="@+id/txtFieldSearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/fiBackIcon"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="@string/search"
+                android:paddingLeft="1dp"
+                android:paddingRight="1dp"
+                android:textColor="@color/white"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:lines="1"
+                android:imeOptions="actionSearch"
+                android:scrollHorizontally="true"
+                android:inputType="text"
+                android:textColorHint="@color/grey"
+                android:textSize="15sp"
+                android:textCursorDrawable="@null"/>
+
+            <com.kriska.customsearchview.view.FontIcon
+                android:id="@+id/txtCross"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:layout_margin="1dp"
+                android:text="c"
+                android:textColor="@drawable/button_click_effect"
+                android:visibility="gone"
+
+                />
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvSuggestionList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/search_layout"
+            android:background="@android:color/transparent"
+            android:visibility="gone">
+
+        </android.support.v7.widget.RecyclerView>
+    </RelativeLayout>
+</merge>

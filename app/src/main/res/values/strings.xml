@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CustomSearchView</string>
+    <string name="search">Search Text</string>
+    <string name="no_search_result">No Search Result</string>
+    <string name="suggested_search_result">Suggested Search Result</string>
+
+    <!--typeface type-->
+    <string name="Bold">Bold</string>
+    <string name="Light">Light</string>
+    <string name="Italic">Italic</string>
+    <string name="Regular">Regular</string>
+</resources>

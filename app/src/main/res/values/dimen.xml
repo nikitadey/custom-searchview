@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textSizeSmall">13sp</dimen>
+    <dimen name="textSizeMedium">15sp</dimen>
+    <dimen name="paddingTop">10dp</dimen>
+    <dimen name="paddingBottom">10dp</dimen>
+    <dimen name="paddingLeft">15dp</dimen>
+    <dimen name="paddingRight">15dp</dimen>
+    <dimen name="searchViewSize">48dp</dimen>
+    <dimen name="searchViewTextSize">13sp</dimen>
+    <dimen name="searchViewTextPadding">1dp</dimen>
+    <dimen name="searchListHeight">55dp</dimen>
+    <dimen name="headerSize">40dp</dimen>
+</resources>
